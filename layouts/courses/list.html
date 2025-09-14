@@ -58,21 +58,22 @@
             </div>
         {{ end }}
         
-
-        
-        {{ $author := .Site.GetPage (print "/contributors/"  (anchorize .Params.Author)) }}
-        {{ $authorImg := (print "/contributors/img/"  (anchorize .Params.Author) ".webp") }}
-        <div class="flex items-center no-underline justify-center" itemprop="author" name="{{ .Params.author }}">
-            <img class="w-12 h-12 rounded-full block" src="{{ $authorImg }}" alt="{{ $author.Title }} avatar" />
-            <span class="flex flex-col ml-2">
-                <span class="text-lg">Taught by 
-                    <a class="no-underline text-orange-500" href="/contributors/{{ anchorize .Params.author }}/">{{ title (.Params.authorname | default .Params.author) }}</a>
-                </span>
-                <span class="text-sm text-gray4">
-                    {{ (.Params.authorbio | default "That guy from the Fireship YouTube channel") }}
-                </span>
-            </span>
-        </div>
+        {{/* Author block (optional) */}}
+        {{ with .Params.author }}
+          {{ $author := $.Site.GetPage (print "/contributors/"  (anchorize .)) }}
+          {{ $authorImg := (print "/contributors/img/"  (anchorize .) ".webp") }}
+          <div class="flex items-center no-underline justify-center" itemprop="author" name="{{ . }}">
+              <img class="w-12 h-12 rounded-full block" src="{{ if (fileExists $authorImg) }}{{ $authorImg }}{{ else }}/img/default-cover.webp{{ end }}" alt="{{ with $author }}{{ .Title }}{{ else }}Instructor{{ end }} avatar" />
+              <span class="flex flex-col ml-2">
+                  <span class="text-lg">Taught by 
+                      <a class="no-underline text-orange-500" href="{{ with $author }}/contributors/{{ anchorize .Title }}/{{ else }}#{{ end }}">{{ title (.Params.authorname | default .) }}</a>
+                  </span>
+                  <span class="text-sm text-gray4">
+                      {{ (.Params.authorbio | default "AI Academy Instructor") }}
+                  </span>
+              </span>
+          </div>
+        {{ end }}
         <if-access>
             <div slot="denied" class="w-full flex justify-center mt-8">
                 <a href="#enroll" class="bg-gradient-to-r from-orange-500 to-pink-500 text-white font-bold py-4 px-8 rounded-full text-3xl no-underline">
@@ -131,7 +132,7 @@
 
                 <div class="bg-gray7 rounded-lg shadow-3xl p-8 max-w-sm mx-auto border-green-500 border border-solid">            
                     <p class="mb-0"><a href="/pro/" class="font-display text-green-500 no-underline text-xl">Upgrade to PRO</a></p>
-                    <p class="mt-0 text-sm text-gray4">Unlock all Fireship content && bonus perks</p>
+                    <p class="mt-0 text-sm text-gray4">Unlock all AI Academy content && bonus perks</p>
                 </div>
   
             </div>

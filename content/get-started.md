@@ -1,6 +1,6 @@
 ---
 title: Get Started
-description: Getting started with Fireship PRO
+description: Getting started with AI Academy
 ---
 
 # Getting Starting

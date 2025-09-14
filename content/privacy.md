@@ -1,5 +1,7 @@
 ---
-title: Privacy Policy
+titlAI Academy ("AI Academy" "we" or "us") is committed to protecting your privacy. This Privacy Policy explains the methods and reasons we collect, use, disclose, transfer, and store your information. If you have any questions about the contents of this policy, don't hesitate to contact us.
+
+If you do not consent to the collection and use of information from or about you in accordance with this Privacy Policy, then you are not permitted to use AI Academy or any services provided on https://aicademy.ac.Privacy Policy
 lastmod: 2022-09-11T08:36:36-07:00
 draft: false
 ---
@@ -11,7 +13,7 @@ Fireship.io ("Fireship" "we" or "us") is committed to protecting your privacy. T
 If you do not consent to the collection and use of information from or about you in accordance with this Privacy Policy, then you are not permitted to use Fireship or any services provided on https://fireship.io.
 
 ### Applicable Law
-Fireship is headquartered in the United States of America in the state of Nevada. By viewing any content or otherwise using the services offered by Fireship, you consent to the transfer of information to the United States of America to the extent applicable, and the collection, storage, and processing of information under Nevada, USA law.
+AI Academy is headquartered in the United States. By viewing any content or otherwise using the services offered by AI Academy, you consent to the transfer of information to the United States to the extent applicable, and the collection, storage, and processing of information under United States law.
 
 ### Information We Collect
 Information you Submit: We store information you provide on this site via forms, surveys, or any other interactive content. This information commonly includes, but is not limited to, name, mailing address, email address, and uploaded files.

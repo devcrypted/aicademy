@@ -10,7 +10,7 @@ By accessing this website, you are agreeing to be bound by these website Terms a
 
 ### Content Copyright Policy
 
-The site design, logo and video content subject to copyright © 2019-present | Fireship LLC
+The site design, logo and video content subject to copyright © 2024-present | AI Academy LLC
 
 User contributions licensed under CC by-SA 3.0 with attribution required.
 
@@ -24,7 +24,7 @@ Lapsed Payment: If payment for a subscription fails, the user account will be do
 
 ### Refund Policy 
 
-We offer a 30-day money-back guarantee on all PRO Memberships. If you are not satisfied with your membership, you may request a refund within 30 days of the original purchase date by emailing hello@fireship.io
+We offer a 30-day money-back guarantee on all memberships. If you are not satisfied with your membership, you may request a refund within 30 days of the original purchase date by emailing hello@aicademy.ac
 
 ### Disclaimer
 

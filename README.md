@@ -1,16 +1,16 @@
-## Fireship
+# AI Academy
 
-The [Fireship PRO](https://fireship.io) course platform frontend built with Svelte, Tailwind, Hugo, Firebase, & Flamethrower. 
+The [AI Academy](https://aicademy.ac) course platform frontend built with Svelte, Tailwind, Hugo, Firebase, & Flamethrower.
 
 ## Contributing
 
-All static content is managed with Hugo in the `content` dir. You can easily fix typos by modifying the markdown directly in GitHub. 
+All static content is managed with Hugo in the `content` dir. You can easily fix typos by modifying the markdown directly in GitHub.
 
 ### How to Run it
 
-First, install [Hugo Extended](https://gohugo.io/getting-started/installing/) ver `0.101.0` or greater. 
+First, install [Hugo Extended](https://gohugo.io/getting-started/installing/) ver `0.101.0` or greater.
 
-```
+```bash
 git clone <this-repo>
 npm install
 npm start

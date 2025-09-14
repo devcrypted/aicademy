@@ -1,6 +1,6 @@
-baseURL = 'https://fireship.io/'
+baseURL = 'https://aicademy.ac/'
 languageCode = 'en-us'
-title = 'Fireship'
+title = 'AI Academy'
 enableRobotsTXT = true
 
 [outputs]
@@ -21,15 +21,15 @@ params = ["tags"]
 
 [params.seoTitles]
   [params.seoTitles.contributors]
-    suffix = " - Contributors | Fireship.io"
+    suffix = " - Contributors | Aicademy"
   [params.seoTitles.courses]
     prefix = "Learn "
-    suffix = " Online Course | Fireship.io"
+    suffix = " Online Course | Aicademy"
   [params.seoTitles.lessons]
     prefix = "Tutorial: "
-    suffix = " | Fireship.io"
+    suffix = " | Aicademy"
   [params.seoTitles.tags]
-    suffix = " - Tags | Fireship.io"
+    suffix = " - Tags | Aicademy"
 
 [markup.goldmark.renderer]
 unsafe= true

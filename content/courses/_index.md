@@ -1,4 +1,4 @@
 ---
 title: Courses
-description: Explore Fireship's diverse range of courses to learn coding, frameworks, and tools.
+description: Explore AI Academy's comprehensive range of courses to learn AI, machine learning, and modern development tools.
 ---
